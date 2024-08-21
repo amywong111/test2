@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redaction Prototype</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-area">
+            <label for="inputText">Input Source Text:</label>
+            <textarea id="inputText" rows="10" cols="30"></textarea>
+            <button id="redactButton">Redact</button>
+        </div>
+        <div class="text-area">
+            <label for="outputText">Output Source Text:</label>
+            <textarea id="outputText" rows="10" cols="30" readonly></textarea>
+            <button id="restoreButton">Restore</button>
+        </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
